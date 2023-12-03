@@ -711,7 +711,7 @@ input:checked > .comment_form_label{
 }
 .contact_form_btn:hover,
 .contact_form_btn:focus {
-  background-color: 404bbf#;
+  background-color: #404bbf;
 }
 
 input:focus + svg,
