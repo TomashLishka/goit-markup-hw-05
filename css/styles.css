@@ -522,7 +522,6 @@ footer .accent {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  display: flex;
   border-radius: 4px;
   width: 408px;
   min-height: 584px;
@@ -620,6 +619,7 @@ footer .accent {
 }
 .backdrop_container_textarea {
   margin-bottom: 16px;
+  display: block;
 }
 .holder_text {
   width: 100%;
