@@ -15,6 +15,7 @@ footer {
 }
 img {
   display: block;
+  max-width: 100%;
 }
 h1 {
   font-family: Roboto;
@@ -557,15 +558,15 @@ footer .accent {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .close_button:focus,
-.close_button:hover{
+.close_button:hover {
   background-color: #404bbf;
-  border: none; 
+  border: none;
 }
 .backdrop_icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .close_button:focus,
-.close_button:hover > .backdrop_icon{
+.close_button:hover > .backdrop_icon {
   fill: #ffffff;
 }
 .contact_form_input {
@@ -579,7 +580,7 @@ footer .accent {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact_form_input:hover,
-.contact_form_input:focus{
+.contact_form_input:focus {
   border-color: #4d5ae5;
 }
 .contact_form_paragraph {
@@ -640,8 +641,8 @@ footer .accent {
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.holder_text:focus{
-  border-color: #4D5AE5;
+.holder_text:focus {
+  border-color: #4d5ae5;
 }
 .comment_form_wrapper {
   margin-bottom: 24px;
@@ -674,10 +675,10 @@ footer .accent {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-input:checked > .comment_form_label{
+input:checked > .comment_form_label {
   background-color: #404bbf;
   border: none;
-  fill: #F4F4FD;
+  fill: #f4f4fd;
 }
 
 .comment_checkbox_text {
